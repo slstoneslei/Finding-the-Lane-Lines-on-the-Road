@@ -64,13 +64,13 @@ In order to draw a single line on the left and right lanes, I create the new dra
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when there are other lines, shadows or cars in the region of interest, the edge of other objects will also be finded.
 
-Another shortcoming could be ...
+Another shortcoming could be when the car turns, the lane will not be a line, and the region of interest and the plotfit line will get problom.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to find a way to ignore the edges of other objects.
 
-Another potential improvement could be to ...
+Another potential improvement could be to not hard code the region of interest, instead predict the ROI; and ployfit the line with more degree.
