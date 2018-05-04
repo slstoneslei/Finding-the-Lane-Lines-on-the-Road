@@ -32,26 +32,32 @@ The goals / steps of this project are the following:
 My pipeline consisted of 5 steps. 
 
 First, I converted the images to grayscale, 
+
 ![alt text][image2]
 
 Secondly I blur the gray image,
+
 ![alt text][image3]
 
 then I find the edge of image,
+
 ![alt text][image4]
 
 and make the region of interest,
+
 ![alt text][image5]
 
 after that, I find the lane line of the image,
+
 ![alt text][image6]
 
 finally, I weight the lane line to the raw image.
+
 ![alt text][image7]
 
 In order to draw a single line on the left and right lanes, I create the new draw_lines_full() function by 
-* 1. Classify the line between the right lane and the left lane,
-* 2. Fit the single line with line segments.
+* Classify the line between the right lane and the left lane,
+* Fit the single line with line segments.
 
 
 
